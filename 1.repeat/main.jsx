@@ -61,7 +61,7 @@ class UserForm extends React.Component {
     render() {
         const formData = this.props.value || {};
         return (
-            <div>
+            <div className="user-form">
                 <div>
                     <label htmlFor="name">姓名</label>
                     <input
@@ -101,7 +101,7 @@ class App extends React.Component {
     }
     render() {
         return (
-          <div>
+          <div className="app">
             <Repeat onChange={items => this.handleChange('demo1', items)}>
                 <input type="text" />
             </Repeat>
