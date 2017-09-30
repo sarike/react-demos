@@ -1,0 +1,14 @@
+.app {
+  font-size: 12px; line-height: 2;
+}
+label {
+  margin-right: 10px;
+}
+a {
+  margin-right: 5px;
+}
+.user-form {
+  border: 1px solid #DDD;
+  padding: 10px;
+  width: 180px;
+}
